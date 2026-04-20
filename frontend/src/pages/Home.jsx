@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(()=>{
 
-    axios.get("http://localhost:5000/")
+    axios.get("https://cricbit-app.onrender.com/")
     .then((res)=>{
       console.log(res.data);
     });

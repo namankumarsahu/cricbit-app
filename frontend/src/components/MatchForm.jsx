@@ -51,7 +51,7 @@ export default function MatchForm({onMatchAdded})
 
         try {
 
-            await axios.post('http://localhost:5000/api/matches', {
+            await axios.post('https://cricbit-app.onrender.com/api/matches', {
                 ...matchData,
                 startTime: new Date(matchData.date),
             });

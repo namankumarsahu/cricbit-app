@@ -33,7 +33,7 @@ export default function MatchList() {
     setLoading(true);
     try {
       const res = await axios.get(
-        "http://localhost:5000/api/matches/all"
+        "https://cricbit-app.onrender.com/api/matches/all"
       );
 
       let data = res.data.matches || [];

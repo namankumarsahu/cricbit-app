@@ -29,7 +29,7 @@ export default function LoginForm() {
     setAuthError("");
     if (validate()) {
       try {
-        const res = await axios.post("http://localhost:5000/api/auth/login", { email, password });
+        const res = await axios.post("https://cricbit-app.onrender.com/api/auth/login", { email, password });
         login(res.data.token);
         navigate("/");
       } catch (err) {
