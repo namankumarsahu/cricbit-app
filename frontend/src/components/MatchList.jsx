@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import LogoutButton from "./LogoutButton";
+import LogoutButton  from "./logoutbutton ";
 
 export default function MatchList() {
   const [tab, setTab] = useState("live");
