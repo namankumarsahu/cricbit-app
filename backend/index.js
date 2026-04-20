@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://cricket-scorecard-app-bki8-gf16p4q8q.vercel.app"
+    "https://cricbit-app-3u77.vercel.app" // ✅ correct one
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true,
